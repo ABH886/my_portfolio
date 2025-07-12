@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us Form</title>
+    <style>
+        label{
+            color:rgb(165, 208, 253);
+            font-weight: bold;
+            font-size: 30px;
+        }
+        input{
+            font-size: 20px;
+            height: 20px;
+        }
+        body{
+            background-color: black;
+        }
+div{
+    color: rgb(165, 208, 253);
+    height: 550px;
+    background-color: black ;
+    width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 0.1cm solid rgb(165, 208, 253);
+    box-shadow: 15px 15px orange;
+    justify-content:center;
+    text-align: center;
+    margin-left: 580px;
+    margin-top: 120px;
+    gap:20% ;
+
+}
+button {
+    background-color:rgb(165, 208, 253); 
+    color: black;
+    box-shadow:5px 5px orange ;
+    border: 0.1cm solid blueviolet;
+    height: 100%;
+    
+}
+a{
+    text-decoration: none;
+}
+hr{
+    width: 200px;
+            height: 3px;
+            background-color:rgb(165, 208, 253) ;
+}
+    </style>
+   <!-- <script>
+        function showAlert(event){
+            event.preventDefault();
+            alert("Thank you! your massege has been sent.");
+            document.getElementById("contact-form").reset();
+        }
+    </script>-->
+</head>
+<body>
+    <div>
+    <h1>Contact Us</h1>
+    <hr>
+    <br><br>
+    <form action="#" method="post" id="contact-form" onsubmit="showAlert(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message" required style="color: blueviolet;"></textarea><br><br>
+
+    <button><a href="tqqq .html" target="_blank">sumbit</a></button>
+    </form>
+    </div>
+</body>
+</html>
