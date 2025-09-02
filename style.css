@@ -254,9 +254,101 @@ font-size: larger;
 .copy{
      padding: 10px 10px;
      font-size: 1rem;
-      background-color:rgb(165, 208, 253) 
+      background-color:rgb(165, 208, 253);
       display: flex;
       text-align: center;
       justify-content: center;
       font-size:large;
+}
+/* ...existing code... */
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    header h1 {
+        font-size: 32px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .menu {
+        margin-right: 0;
+        width: 100%;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 22px;
+        padding: 0;
+    }
+    main {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .home_c {
+        width: 90vw;
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .profile img {
+        height: 200px;
+        border-radius: 100px;
+        margin-bottom: 20px;
+    }
+    .about {
+        height: auto;
+        padding: 20px 0;
+    }
+    .about_h {
+        font-size: 28px;
+    }
+    .about_c {
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .bar {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+    }
+    .bar hr {
+        width: 90vw;
+    }
+    .edu_head, .skills_head {
+        font-size: 24px;
+        height: auto;
+        padding: 10px 0;
+    }
+    .edu {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    .cards {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .edu_degree {
+        flex-direction: column;
+        gap: 5px;
+    }
+    button {
+        font-size: 18px;
+        padding: 8px;
+    }
+    .footer, .copy {
+        flex-direction: column;
+        font-size: 1rem;
+        padding: 10px 0;
+        text-align: center;
+    }
 }
